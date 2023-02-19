@@ -1,0 +1,23 @@
+list = []  # We will take input of list from user
+print('''Please press 's' to submit your list''')
+
+while True:
+    
+    i = input('''Please enter your number for the list :''')
+    if (i == 's'):
+        break
+    else:
+        list.append(int(i))
+
+print('Your entered list is : ',tuple(list))
+
+Even_count = 0
+Odd_count = 0
+
+for i in list:      #Using for loop
+     if i%2 == 0:
+          Even_count = Even_count + 1
+     else:
+          Odd_count = Odd_count + 1
+print("Number of even numbers ",Even_count) # print output
+print("Number of odd numbers ",Odd_count)
