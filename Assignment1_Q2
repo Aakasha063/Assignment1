@@ -1,0 +1,9 @@
+# Write a program that takes input from user and reverses it
+
+string =input('Enter a word which you would like to reverse : ')
+reversed_string = ''
+
+
+for x in string:
+    reversed_string = x + reversed_string
+print('reversed order for this word is : ',reversed_string)
