@@ -1,0 +1,19 @@
+# program to print a dictionary whose keys should be the alphabet from a-z and the value should be corresponding ASCII values
+
+
+alphabet_lowercase = ''
+for i in range(ord('a'),ord('z')+1):
+   alphabet_lowercase += chr(i)
+   
+keys =[]
+values = []
+
+for letter in alphabet_lowercase:
+   keys.append(letter)
+   for ascii in letter:
+      ascii = ord(letter)
+      values.append(ascii)
+
+d = dict(zip(keys,values))
+
+print(d)
