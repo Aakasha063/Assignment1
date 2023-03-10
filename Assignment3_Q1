@@ -1,0 +1,9 @@
+# program to sum all the numbers in a list
+
+def sum(*a):
+    sum_value = 0
+    for i in a:
+        sum_value += i
+    return sum_value
+
+print(sum(8,2,3,0,7))
