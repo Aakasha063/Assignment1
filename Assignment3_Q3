@@ -1,0 +1,18 @@
+# Python function that accepts a string and calculate the number of upper case letters and lower case letters.
+
+def count_letters(string):
+    upper = 0
+    lower = 0
+
+    for i in string:
+        if i in string.upper():
+            upper += 1
+        elif i in string.lower():
+            lower += 1
+
+    return f'No. of Upper case characters : {upper}\nNo. of Lower case characters : {lower} '
+    
+
+str = (input('Write a sentence to count letters : ').strip())
+a = str.replace(' ','')
+print(count_letters(a))
