@@ -3,4 +3,4 @@
 number = int(input("Enter a number to pass argument : "))
 our_fun = lambda x: x+25
 
-print(our_fun(number))
+print('The output of our function is : ',our_fun(number))
