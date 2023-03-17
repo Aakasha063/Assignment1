@@ -1,10 +1,18 @@
 #Python program to square the elements of a list using map() function.
 
-given_list = [4, 5, 2, 9]
+given_list = []
+
+n = int(input('Enter the number of elements you want in list :'))
+
+for i in range(1,n+1):
+    element = int(input(f'Enter number {i} to add in list :'))
+    given_list.append(element)
+
+print('Our entered list is :',given_list)
 
 def square(x):
     return x**2
 
 squared_list = map(square, given_list)
 
-print(list(squared_list))
+print('The squared number of our list are',list(squared_list))
