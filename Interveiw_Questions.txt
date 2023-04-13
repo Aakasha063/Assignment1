@@ -1,0 +1,82 @@
+ASSIGNMENT 1.1 : Find and read 20 interview questions for Data Types, Operators, Conditional Statements, Looping Statements, Functions.
+
+PLEASE FIND BELOW THE 20 INTERVEIW QUESTIONS:
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+Data Types:
+
+Q1. What are the primitive data types in Python?
+Ans. The primitive data types in Python are integers, floats, booleans, and strings.
+
+Q2. What is the difference between a list and a tuple in Python?
+Ans.A list is mutable (can be changed) while a tuple is immutable (cannot be changed).
+
+Q3. What is a dictionary in Python?
+Ans.A dictionary is an unordered collection of key-value pairs.
+
+Q4. What is a set in Python?
+Ans.A set is an unordered collection of unique elements.
+
+
+
+Operators:
+
+Q5. What are the arithmetic operators in Python?
+Ans.The arithmetic operators in Python are + (addition), - (subtraction), * (multiplication), / (division), % (modulus), ** (exponentiation), and // (floor division).
+
+Q6. What is the difference between the "==" and "is" operators in Python?
+Ans. "==" is used for value comparison while "is" is used for object identity comparison
+
+Q7. What are logical operators in Python?
+Ans. The logical operators in Python are "and", "or", and "not".
+
+Q8. What are bitwise operators in Python?
+Ans.The bitwise operators in Python are &, |, ^, ~, <<, and >>.
+
+
+
+Conditional Statements:
+
+Q9. What is the syntax for an "if" statement in Python?
+Ans. The syntax for an "if" statement in Python is: if condition: statement.
+
+Q10. What is the difference between "if" and "elif" statements in Python?
+Ans."if" statements are used for a single condition while "elif" statements are used for multiple conditions.
+
+Q11. What is a nested "if" statement in Python?
+Ans.A nested "if" statement is an "if" statement inside another "if" statement.
+
+Q12. How do you use the ternary operator in Python?
+Ans.The ternary operator in Python is a shorthand way of writing an "if" statement in a single line.
+
+
+
+Looping Statements:
+
+Q13. What is the difference between a "for" loop and a "while" loop in Python?
+Ans. "for" loops are used when you know how many times you want to loop while "while" loops are used when you do not know how many times you want to loop.
+
+Q14. How do you use a "break" statement in a loop in Python?
+Ans. A "break" statement is used to exit a loop prematurely.
+
+Q15. How do you use a "continue" statement in a loop in Python?
+Ans.A "continue" statement is used to skip to the next iteration of a loop.
+
+Q16. What is an "else" clause in a loop in Python?
+Ans.An "else" clause in a loop is executed when the loop is finished iterating without a "break" statement being called.
+
+
+
+Functions:
+
+Q17. What is a function in Python?
+Ans.A function is a block of code that performs a specific task and can be reused.
+
+Q18. How do you define a function in Python?
+Ans.A function is defined using the "def" keyword followed by the function name and parameters.
+
+Q19. What is a return statement in a function in Python?
+Ans.A return statement in a function is used to return a value back to the caller.
+
+Q20. What is the difference between a function and a method in Python?
+Ans.A function is a standalone piece of code while a method is a function that is associated with an object or class.
