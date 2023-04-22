@@ -1,0 +1,50 @@
+print("Job Portal")
+print("------------------------")
+
+# Creating a list of job vacancies
+vacancies = ["Software Engineer", "Data Analyst", "Web Developer", "UI/UX Designer"]
+
+# Displaying the available job vacancies
+
+print("Available Job Vacancies:")
+for i in range(len(vacancies)):
+    print(i+1, "-", vacancies[i])
+    
+# Taking input from user for job application
+first_name = input("Enter First Name: ")
+last_name = input("Enter Last Name: ")
+email = input("Enter Email: ")
+contact = input("Enter Contact Details: ")
+marital_status = input("Enter Marital Status: ")
+education = input("Enter Education: ")
+gender = input("Enter Gender: ")
+age = input("Enter Age: ")
+dob = input("Enter Date of Birth (dd-mm-yyyy): ")
+current_address = input("Enter Current Address: ")
+permanent_address = input("Enter Permanent Address: ")
+job_preference = input("Enter the Job Preference (enter the number corresponding to the job vacancy): ")
+cv_link = input("Enter the link to your CV (Google Drive/Dropbox): ")
+
+
+# Displaying the entered details
+print("------------------------")
+print("Entered Details:")
+print("Name:", first_name, last_name)
+print("Email:", email)
+print("Contact Details:", contact)
+print("Marital Status:", marital_status)
+print("Education:", education)
+print("Gender:", gender)
+print("Age:", age)
+print("Date of Birth:", dob)
+print("Current Address:", current_address)
+print("Permanent Address:", permanent_address)
+print("Job Preference:", vacancies[int(job_preference)-1])
+print("CV Link:", cv_link)
+
+# Confirmation checkbox
+confirm = input("I declare that the above information provided is true and complete. (Y/N): ")
+if confirm == 'Y' or confirm == 'y':
+    print("Job Application Submitted Successfully!")
+else:
+    print("Job Application Submission Failed. Please try again.")
