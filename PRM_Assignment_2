@@ -1,0 +1,21 @@
+class Shape:
+    def __init__(self):
+        pass
+    
+    def validate_triangle(self, side1, side2, side3):
+        if (side1 + side2 <= side3) or (side2 + side3 <= side1) or (side3 + side1 <= side2):
+            print("Invalid triangle")
+        else:
+            print("Valid triangle")
+
+    def validate_rectangle(self, side1, side2, side3, side4):
+        if (side1==side2 and side3 == side4) or(side1 == side3 and side2 ==side4) or (side1 == side4 and side2 == side3):
+            print("valid rectangle")
+        else:
+            print("Invalid rectangle")
+
+obj = Shape()
+
+print(obj.validate_triangle(3,4,5))
+
+print(obj.validate_rectangle(2,4,2,4))
