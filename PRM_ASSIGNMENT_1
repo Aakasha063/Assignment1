@@ -1,0 +1,7 @@
+n = int(input())
+
+given_list = [input() for i in range(n)]
+
+sorted_list = sorted(given_list, key = lambda x : x[-2])
+        
+print(sorted_list)
